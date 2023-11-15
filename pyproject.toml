@@ -1,0 +1,31 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "data_processing_toolkit"
+version = "0.0.1"
+authors = [
+  { name="Kenechukwu Okoye", email="apps.oak.tech@gmail.com" },
+]
+description = "A collection of simple functions designed to streamline data processing tasks"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+  "matplotlib",
+  "numpy",
+  "scipy",
+  "openpyxl",
+  "XlsxWriter",
+  "opencv-python"
+]
+
+
+[project.urls]
+"Homepage" = "https://github.com/kaycee-okoye/data_processing_toolkit"
+"Bug Tracker" = "https://github.com/kaycee-okoye/data_processing_toolkit/issues"
