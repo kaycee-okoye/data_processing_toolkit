@@ -34,7 +34,7 @@ To get started with this project, follow these steps:
 
    ```bash
    pip install --upgrade pip
-   pip install https://github.com/kaycee-okoye/data_processing_toolkit
+   pip install https://github.com/kaycee-okoye/data_processing_toolkit.git
    ```
 
 To use the functions in this toolbox, follow the instructions provided in each module's documentation. You can find detailed information on how to use the functions in the respective files.
